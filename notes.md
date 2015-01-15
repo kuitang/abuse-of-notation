@@ -1,0 +1,3 @@
+ - First principle: all variables are static const, because templates work at compile time, and only on classes.
+ - Second principle: every type is an algebraic data type; it's template<...> list isits ctor. To return an ADT, you construct it with typedef. (See ScalarMult function.)
+ - Third principle: recursion, pure function. You can do anything you can do purely in Haskell!

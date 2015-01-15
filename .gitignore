@@ -4,6 +4,9 @@
 *.o
 *.obj
 
+# Preprocessor output
+*.i
+
 # Precompiled Headers
 *.gch
 *.pch
